@@ -1,10 +1,10 @@
 const express = require("express");
 const {
-	createExpense,
-	getExpense,
-	getExpenses,
-	updateExpense,
-	deleteExpense,
+  createExpense,
+  getExpense,
+  getExpenses,
+  updateExpense,
+  deleteExpense,
 } = require("../controllers/expenseControllers");
 
 const router = express.Router();
